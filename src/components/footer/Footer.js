@@ -6,7 +6,7 @@ import '../../index.scss'; // Import your Sass file
 const Footer = () => {
   return (
     <footer>
-      <nav>
+      {/* <nav>
         <div className="nav-links-container">
           <ul className="nav-links">
             <li><a href="#about">About</a></li>
@@ -15,8 +15,8 @@ const Footer = () => {
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
-      </nav>
-      <p>Copyright &#169; {new Date().getFullYear()} John Doe. All Rights Reserved.</p>
+      </nav> */}
+      <p>Copyright &#169; {new Date().getFullYear()} Prajna Putra. All Rights Reserved.</p>
     </footer>
   );
 }
