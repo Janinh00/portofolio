@@ -7,7 +7,7 @@ import Education from './components/education/Education';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import About from './components/about/About';
-
+import Project from './components/project/Project';
 
 const App = () => {
   return (
@@ -15,8 +15,9 @@ const App = () => {
       {/* <Navbar /> */}
       <Profile />
       <About />
-      <Experience />
       <Education />
+      <Experience />
+      <Project/>
       <Contact />
       <Footer />
     </div>

@@ -60,6 +60,7 @@ a:hover {
 
 #education {
   margin-bottom: -200px;
+  padding-right: -10rem;
 
 }
 
@@ -388,6 +389,36 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+/* PROJECT */
+
+/* PROJECTS SECTION */
+
+#projects {
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+
 /* CONTACT */
 
 #contact {
@@ -522,6 +553,11 @@ margin-bottom: 8rem;
     height: 83vh;
     margin-bottom: 5rem;
   }
+
+  #experience {
+    margin-top:-1rem;
+  }
+
   article {
     font-size: 1rem;
   }
@@ -531,12 +567,29 @@ margin-bottom: 8rem;
   }
   .about-containers,
   .contact-info-upper-container,
-  .btn-container {
+  .btn-container, .article-container {
     flex-wrap: wrap;
   }
 
+  #about {
+    margin-top : -25rem;
+  }
 
+  #education {
+    margin-top : 50rem;
+  }
 
+  .article-container{
+    margin-top:10px;
+  }
+
+  .details-container {
+    width: 80%;
+  }
+
+  .article-container h3{
+    font-size: 0.9rem;
+  }
   .contact-info-container {
     margin: 0;
   }
