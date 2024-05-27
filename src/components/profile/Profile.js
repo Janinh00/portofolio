@@ -9,9 +9,9 @@ import githubIcon from '../assets/github.png';
 const Profile = () => {
   return (
     <section id="profile">
-      <div className="section__pic-container">
-        {/* <img src={profilePic} alt="foto" /> */}
-      </div>
+      {/* <div className="section__pic-container">
+        <img src={profilePic} alt="foto" />
+      </div> */}
       <div className="section__text">
         <p className="section__text__p1">Hello, I am</p>
         <h1 className="title">Prajna Putra</h1>
